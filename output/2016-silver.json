@@ -1,0 +1,270 @@
+{
+    "title": "ARTICLE Mastering the game of Go with deep neural networks and tree search",
+    "outline": [
+        {
+            "level": "H2",
+            "text": "policies13\u201315 or value functions16 based on a linear combination of",
+            "page": 0
+        },
+        {
+            "level": "H2",
+            "text": "Recently, deep convolutional neural networks have achieved unprec-",
+            "page": 0
+        },
+        {
+            "level": "H2",
+            "text": "tion17, face recognition18, and playing Atari games19. They use many layers of neurons, each arranged in overlapping tiles, to construct",
+            "page": 0
+        },
+        {
+            "level": "H2",
+            "text": "employ a similar architecture for the game of Go. We pass in the board",
+            "page": 0
+        },
+        {
+            "level": "H2",
+            "text": "Supervised learning of policy networks",
+            "page": 0
+        },
+        {
+            "level": "H3",
+            "text": "Figure 1 | Neural network training pipeline and architecture. a, A fast",
+            "page": 1
+        },
+        {
+            "level": "H2",
+            "text": "sampled state-action pairs (s, a), using stochastic gradient ascent to maximize the likelihood of the human move a selected in state s",
+            "page": 1
+        },
+        {
+            "level": "H3",
+            "text": "Figure 2 | Strength and accuracy of policy and value networks.",
+            "page": 1
+        },
+        {
+            "level": "H2",
+            "text": "and its weights \u03c1 are initialized to the same values, \u03c1\u2009=\u2009\u03c3. We play",
+            "page": 1
+        },
+        {
+            "level": "H2",
+            "text": "\u03c1p a s log z \u2206\u03c1 \u03c1",
+            "page": 1
+        },
+        {
+            "level": "H3",
+            "text": "Figure 3 | Monte Carlo tree search in AlphaGo. a, Each simulation",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "learning of convolutional networks, won 11% of games against Pachi23 and 12% against a slightly weaker program, Fuego24.",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "E v [ ( )=",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "\u221d\u2202( ) z \u2206\u03b8 \u03b8",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "a argmax =",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "so as to maximize action value plus a bonus",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "P s a u s a +",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "V s \u03bb",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "Q s a",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "Figure 4 | Tournament evaluation of AlphaGo. a, Results of a",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "8 GPUs. We also implemented a distributed version of AlphaGo that",
+            "page": 3
+        },
+        {
+            "level": "H3",
+            "text": "Figure 5 | How AlphaGo (black, to play) selected its move in an",
+            "page": 3
+        },
+        {
+            "level": "H2",
+            "text": "and distributed MCTS.",
+            "page": 3
+        },
+        {
+            "level": "H2",
+            "text": "Evaluating the playing strength of AlphaGo",
+            "page": 3
+        },
+        {
+            "level": "H2",
+            "text": "commercial programs Crazy Stone13 and Zen, and the strongest open source programs Pachi14 and Fuego15. All of these programs are based",
+            "page": 3
+        },
+        {
+            "level": "H3",
+            "text": "Figure 6 | Games from the match between AlphaGo and the European",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "outcome of games played by the strong but impractically slow p\u03c1, while",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "played by the weaker but faster rollout policy p\u03c0. Figure 5 visualizes",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "match 5 games to 0 (Fig. 6 and Extended Data Table 1). This is the",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "previously believed to be at least a decade away3,7,31.",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "Discussion In this work we have developed a Go program, based on a combina-",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "ligence\u2019s \u201cgrand challenges\u201d31\u201333. We have developed, for the first time,",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "METHODS",
+            "page": 6
+        },
+        {
+            "level": "H3",
+            "text": "Policy network: reinforcement learning. We further trained the policy network",
+            "page": 7
+        },
+        {
+            "level": "H3",
+            "text": "Extended Data Table 1 | Details of match between AlphaGo and Fan Hui",
+            "page": 9
+        },
+        {
+            "level": "H2",
+            "text": "Date 5/10/15 5/10/15 6/10/15 6/10/15 7/10/15 7/10/15 8/10/15 8/10/15 9/10/15 9/10/15",
+            "page": 9
+        },
+        {
+            "level": "H3",
+            "text": "Extended Data Table 2 | Input features for neural networks",
+            "page": 10
+        },
+        {
+            "level": "H2",
+            "text": "Feature Stone colour Ones Turns since Liberties Capture size Self-atari size Liberties after move Ladder capture Ladder escape Sensibleness Zeros Player color",
+            "page": 10
+        },
+        {
+            "level": "H3",
+            "text": "Extended Data Table 3 | Supervised learning results for the policy network",
+            "page": 11
+        },
+        {
+            "level": "H2",
+            "text": "Architecture Filters",
+            "page": 11
+        },
+        {
+            "level": "H3",
+            "text": "Extended Data Table 4 | Input features for rollout and tree policy",
+            "page": 12
+        },
+        {
+            "level": "H3",
+            "text": "Extended Data Table 5 | Parameters used by AlphaGo",
+            "page": 13
+        },
+        {
+            "level": "H2",
+            "text": "Symbol Softmax temperature \u03b2 Mixing parameter \u03bb Virtual loss Expansion threshold Exploration constant",
+            "page": 13
+        },
+        {
+            "level": "H3",
+            "text": "Extended Data Table 6  | Results of a tournament between different Go programs",
+            "page": 14
+        },
+        {
+            "level": "H2",
+            "text": "Short name Distributed AlphaGo \u03b1d AlphaGo CrazyStone CS Zen ZN Pachi PC Fuego FG GnuGo GG CrazyStone CS4 Zen ZN4 Pachi PC4",
+            "page": 14
+        },
+        {
+            "level": "H3",
+            "text": "Extended Data Table 7 | Results of a tournament between different variants of AlphaGo",
+            "page": 15
+        },
+        {
+            "level": "H2",
+            "text": "Short name 2",
+            "page": 15
+        },
+        {
+            "level": "H2",
+            "text": "0 \u03b1v \u03b1r \u03b1p",
+            "page": 15
+        },
+        {
+            "level": "H3",
+            "text": "Extended Data Table 8 | Results of a tournament between AlphaGo and distributed AlphaGo, testing scalability with hardware",
+            "page": 16
+        },
+        {
+            "level": "H2",
+            "text": "AlphaGo",
+            "page": 16
+        },
+        {
+            "level": "H3",
+            "text": "Extended Data Table 9 | Cross-table of win rates in per cent between programs",
+            "page": 17
+        },
+        {
+            "level": "H3",
+            "text": "Extended Data Table 10 | Cross-table of win rates in per cent between programs in the single-machine scalability study",
+            "page": 18
+        },
+        {
+            "level": "H3",
+            "text": "Extended Data Table 11 | Cross-table of win rates in per cent between programs in the distributed scalability study",
+            "page": 19
+        }
+    ]
+}

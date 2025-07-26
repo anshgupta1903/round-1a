@@ -1,0 +1,157 @@
+{
+    "metadata": {
+        "input_documents": [
+            "Breakfast Ideas.pdf",
+            "Dinner Ideas - Mains_1.pdf",
+            "Dinner Ideas - Mains_2.pdf",
+            "Dinner Ideas - Mains_3.pdf",
+            "Dinner Ideas - Sides_1.pdf",
+            "Dinner Ideas - Sides_2.pdf",
+            "Dinner Ideas - Sides_3.pdf",
+            "Dinner Ideas - Sides_4.pdf",
+            "Lunch Ideas.pdf"
+        ],
+        "persona": "Food Contractor",
+        "job_to_be_done": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items.",
+        "processing_timestamp": "Wed Jul 23 22:30:02 2025"
+    },
+    "extracted_section": [
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "page_number": 8,
+            "section_title": "Chicken Tikka Masala",
+            "importance_rank": 1
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "page_number": 9,
+            "section_title": "Fish Tacos",
+            "importance_rank": 2
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "page_number": 6,
+            "section_title": "Mushroom Risotto",
+            "importance_rank": 3
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "page_number": 4,
+            "section_title": "Vegetable Stir-Fry",
+            "importance_rank": 4
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "page_number": 11,
+            "section_title": "Lamb Curry",
+            "importance_rank": 5
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "page_number": 2,
+            "section_title": "Spaghetti Bolognese",
+            "importance_rank": 6
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "page_number": 6,
+            "section_title": "Beef and Broccoli",
+            "importance_rank": 7
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "page_number": 9,
+            "section_title": "Crab Cakes",
+            "importance_rank": 8
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "page_number": 14,
+            "section_title": "Sopa de Tortilla",
+            "importance_rank": 9
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "page_number": 2,
+            "section_title": "Sweet and Sour Pork",
+            "importance_rank": 10
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "page_number": 10,
+            "section_title": "General Tso's Chicken",
+            "importance_rank": 11
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "page_number": 6,
+            "section_title": "Chicken Fajitas",
+            "importance_rank": 12
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "page_number": 10,
+            "section_title": "Enchiladas",
+            "importance_rank": 13
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "page_number": 7,
+            "section_title": "Vegetable Lasagna",
+            "importance_rank": 14
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "page_number": 5,
+            "section_title": "Quesadillas",
+            "importance_rank": 15
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "page_number": 1,
+            "section_title": "Aloo Gobi",
+            "importance_rank": 16
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "page_number": 3,
+            "section_title": "Thai Green Curry",
+            "importance_rank": 17
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "page_number": 7,
+            "section_title": "Refried Beans",
+            "importance_rank": 18
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "page_number": 11,
+            "section_title": "Fish and Chips",
+            "importance_rank": 19
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "page_number": 8,
+            "section_title": "Briam",
+            "importance_rank": 20
+        }
+    ],
+    "sub-section_analysis": [
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "page_number": 8,
+            "refined_text": "Ingredients: \n\uf0b7 \n1 pound chicken breast, cubed \n\uf0b7 \n1 cup yogurt \n\uf0b7 \n2 tablespoons lemon juice \n\uf0b7 \n2 cloves garlic, minced \n\uf0b7 \n1 teaspoon grated ginger \n\uf0b7 \n1 teaspoon cumin \n\uf0b7 \n1 teaspoon coriander \n\uf0b7 \n1 teaspoon turmeric \n\uf0b7 \n1 teaspoon paprika \n\uf0b7 \n1 teaspoon garam masala \n\uf0b7 \n1/2 cup heavy cream \n\uf0b7 \n1 can (14.5 ounces) diced tomatoes \n\uf0b7 \n1 small onion, diced \n\uf0b7 \n2 tablespoons vegetable oil \n\uf0b7 \nSalt and pepper to taste \n\uf0b7 \nChopped cilantro for garnish \nInstructions: \n\uf0b7 \nIn a bowl, mix yogurt, lemon juice, minced garlic, grated ginger, cumin, coriander, \nturmeric, paprika, and garam masala. \n\uf0b7 \nMarinate chicken cubes in the mixture for at least 1 hour. \n\uf0b7 \nIn a large skillet, heat vegetable oil over medium heat. \n\uf0b7 \nCook diced onion until translucent. \n\uf0b7 \nAdd marinated chicken and cook until browned. \n\uf0b7 \nStir in diced tomatoes and simmer for 20 minutes. \n\uf0b7 \nAdd heavy cream and simmer for an additional 10 minutes. \n\uf0b7 \nSeason with salt and pepper to taste. \n\uf0b7 \nGarnish with chopped cilantro and serve."
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "page_number": 9,
+            "refined_text": "Ingredients: \n\uf0b7 \n1 pound white fish fillets (such as cod or tilapia) \n\uf0b7 \n1/2 cup flour \n\uf0b7 \n1/2 cup cornmeal \n\uf0b7 \n1 teaspoon paprika \n\uf0b7 \n1 teaspoon cumin \n\uf0b7 \n1 teaspoon salt \n\uf0b7 \n1/2 teaspoon pepper \n\uf0b7 \n1/2 cup buttermilk \n\uf0b7 \n1/4 cup vegetable oil \n\uf0b7 \nTaco shells or tortillas \n\uf0b7 \nShredded cabbage, diced tomatoes, sliced avocado, and lime wedges for toppings \nInstructions: \n\uf0b7 \nIn a bowl, mix flour, cornmeal, paprika, cumin, salt, and pepper. \n\uf0b7 \nDip fish fillets in buttermilk, then coat with the flour mixture. \n\uf0b7 \nHeat vegetable oil in a skillet over medium heat. \n\uf0b7 \nCook fish until golden and cooked through. \n\uf0b7 \nServe fish in taco shells or tortillas with desired toppings."
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "page_number": 6,
+            "refined_text": "Ingredients: \n\uf0b7 \n1 cup Arborio rice \n\uf0b7 \n4 cups chicken or vegetable broth \n\uf0b7 \n1 small onion, diced \n\uf0b7 \n2 cloves garlic, minced \n\uf0b7 \n1 cup mushrooms, sliced \n\uf0b7 \n1/2 cup white wine \n\uf0b7 \n1/2 cup grated Parmesan cheese \n\uf0b7 \n2 tablespoons butter \n\uf0b7 \n2 tablespoons olive oil \n\uf0b7 \nSalt and pepper to taste \n\uf0b7 \nChopped parsley for garnish \nInstructions: \n\uf0b7 \nHeat broth in a pot and keep warm. \n\uf0b7 \nIn a large skillet, heat olive oil and 1 tablespoon butter over medium heat. \n\uf0b7 \nSaut\u00e9 onion, garlic, and mushrooms until tender. \n\uf0b7 \nAdd rice and stir for 1-2 minutes until lightly toasted. \n\uf0b7 \nPour in white wine and cook until absorbed. \n\uf0b7 \nAdd warm broth, one ladle at a time, stirring until absorbed before adding more, until \nrice is creamy and tender (about 20 minutes). \n\uf0b7 \nStir in remaining butter and Parmesan cheese, season with salt and pepper. \n\uf0b7 \nGarnish with parsley and serve."
+        }
+    ]
+}
