@@ -1,12 +1,16 @@
-# 📦 round-1a
+# How to run:
+In your git bash paste the command:
+git clone https://github.com/anshgupta1903/round-1a
+
+# round-1a
 This project processes input data and writes results to an output directory using a Dockerized application.
 
-# 🐳 Build Docker Image
+#  Build Docker Image
 To build the Docker image for the project (using the linux/amd64 platform):
 
 
 docker build --platform linux/amd64 -t round-1a .
-# ▶️ Run the Docker Container
+#  Run the Docker Container
 To run the container:
 
 " docker run --rm `
@@ -14,7 +18,7 @@ To run the container:
   -v "${PWD}/output/repoidentifier:/app/output" `
   --network none round-1a "
 
-# ✅ Explanation of flags:
+#  Explanation of flags:
 
 --rm: Remove the container after it exits.
 
