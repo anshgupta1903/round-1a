@@ -9,10 +9,10 @@ docker build --platform linux/amd64 -t round-1a .
 # ▶️ Run the Docker Container
 To run the container:
 
-docker run --rm `
+" docker run --rm `
   -v "${PWD}/input:/app/input:ro" `
   -v "${PWD}/output/repoidentifier:/app/output" `
-  --network none round-1a
+  --network none round-1a "
 
 # ✅ Explanation of flags:
 
